@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Crashlytics (3.13.4):
+    - Fabric (~> 1.10.2)
+  - Fabric (1.10.2)
+  - SwiftLint (0.31.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.2)
+  - Crashlytics (~> 3.13.0)
+  - Fabric (~> 1.10.0)
+  - SwiftLint (~> 0.31.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Crashlytics
+    - Fabric
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Crashlytics: 2dfd686bcb918dc10ee0e76f7f853fe42c7bd552
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+
+PODFILE CHECKSUM: 394243f4f003c476b32fc159c84f3f3fe0f1a239
+
+COCOAPODS: 1.8.1

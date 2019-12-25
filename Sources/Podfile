@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+pod 'SwiftLint', '~> 0.31.0'
+
+target 'Matrix' do
+  platform :ios, '12.4'
+  use_frameworks!
+
+  pod 'Fabric', '~> 1.10.0'
+  pod 'Crashlytics', '~> 3.13.0'
+  
+  pod 'Alamofire', '~> 4.8.2'
+
+end
