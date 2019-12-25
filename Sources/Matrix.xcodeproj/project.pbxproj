@@ -11,10 +11,10 @@
 		CABF869D23B3912300FAA505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF869C23B3912300FAA505 /* AppDelegate.swift */; };
 		CABF869F23B3912300FAA505 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF869E23B3912300FAA505 /* SceneDelegate.swift */; };
 		CABF86A123B3912300FAA505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF86A023B3912300FAA505 /* ViewController.swift */; };
-		CABF86A423B3912300FAA505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABF86A223B3912300FAA505 /* Main.storyboard */; };
 		CABF86A623B3912300FAA505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABF86A523B3912300FAA505 /* Assets.xcassets */; };
-		CABF86A923B3912300FAA505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABF86A723B3912300FAA505 /* LaunchScreen.storyboard */; };
 		CABF86BC23B39C2900FAA505 /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF86BB23B39C2900FAA505 /* ApplicationDelegate.swift */; };
+		CABF86C123B39EAE00FAA505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABF86BD23B39EAE00FAA505 /* Main.storyboard */; };
+		CABF86C223B39EAE00FAA505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABF86BF23B39EAE00FAA505 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +25,11 @@
 		CABF869C23B3912300FAA505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CABF869E23B3912300FAA505 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CABF86A023B3912300FAA505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CABF86A323B3912300FAA505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CABF86A523B3912300FAA505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CABF86A823B3912300FAA505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CABF86AA23B3912300FAA505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CABF86BB23B39C2900FAA505 /* ApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDelegate.swift; sourceTree = "<group>"; };
+		CABF86BE23B39EAE00FAA505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CABF86C023B39EAE00FAA505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +90,7 @@
 				CABF86B023B3924000FAA505 /* Services */,
 				CABF86B223B3924000FAA505 /* SupportingFiles */,
 				CABF86A023B3912300FAA505 /* ViewController.swift */,
-				CABF86A223B3912300FAA505 /* Main.storyboard */,
 				CABF86A523B3912300FAA505 /* Assets.xcassets */,
-				CABF86A723B3912300FAA505 /* LaunchScreen.storyboard */,
 				CABF86AA23B3912300FAA505 /* Info.plist */,
 			);
 			path = Matrix;
@@ -146,6 +144,8 @@
 		CABF86B623B3924000FAA505 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				CABF86BF23B39EAE00FAA505 /* LaunchScreen.storyboard */,
+				CABF86BD23B39EAE00FAA505 /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -153,6 +153,7 @@
 		CABF86B723B3924000FAA505 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				CABF86C323B39EF600FAA505 /* Spalsh */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -180,6 +181,45 @@
 				CABF86BB23B39C2900FAA505 /* ApplicationDelegate.swift */,
 			);
 			path = Delegates;
+			sourceTree = "<group>";
+		};
+		CABF86C323B39EF600FAA505 /* Spalsh */ = {
+			isa = PBXGroup;
+			children = (
+				CABF86C723B39F4F00FAA505 /* View */,
+				CABF86C623B39F4800FAA505 /* Presenter */,
+				CABF86C523B39F4100FAA505 /* Interactor */,
+				CABF86C423B39F0E00FAA505 /* Assembly */,
+			);
+			path = Spalsh;
+			sourceTree = "<group>";
+		};
+		CABF86C423B39F0E00FAA505 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		CABF86C523B39F4100FAA505 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CABF86C623B39F4800FAA505 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CABF86C723B39F4F00FAA505 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,9 +282,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CABF86A923B3912300FAA505 /* LaunchScreen.storyboard in Resources */,
+				CABF86C223B39EAE00FAA505 /* LaunchScreen.storyboard in Resources */,
 				CABF86A623B3912300FAA505 /* Assets.xcassets in Resources */,
-				CABF86A423B3912300FAA505 /* Main.storyboard in Resources */,
+				CABF86C123B39EAE00FAA505 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,18 +347,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CABF86A223B3912300FAA505 /* Main.storyboard */ = {
+		CABF86BD23B39EAE00FAA505 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CABF86A323B3912300FAA505 /* Base */,
+				CABF86BE23B39EAE00FAA505 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CABF86A723B3912300FAA505 /* LaunchScreen.storyboard */ = {
+		CABF86BF23B39EAE00FAA505 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CABF86A823B3912300FAA505 /* Base */,
+				CABF86C023B39EAE00FAA505 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
