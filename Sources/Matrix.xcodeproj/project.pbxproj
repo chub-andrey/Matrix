@@ -14,6 +14,7 @@
 		CABF86A423B3912300FAA505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABF86A223B3912300FAA505 /* Main.storyboard */; };
 		CABF86A623B3912300FAA505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABF86A523B3912300FAA505 /* Assets.xcassets */; };
 		CABF86A923B3912300FAA505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABF86A723B3912300FAA505 /* LaunchScreen.storyboard */; };
+		CABF86BC23B39C2900FAA505 /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF86BB23B39C2900FAA505 /* ApplicationDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CABF86A523B3912300FAA505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CABF86A823B3912300FAA505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CABF86AA23B3912300FAA505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABF86BB23B39C2900FAA505 /* ApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +89,6 @@
 				CABF86B323B3924000FAA505 /* Resources */,
 				CABF86B023B3924000FAA505 /* Services */,
 				CABF86B223B3924000FAA505 /* SupportingFiles */,
-				CABF869E23B3912300FAA505 /* SceneDelegate.swift */,
 				CABF86A023B3912300FAA505 /* ViewController.swift */,
 				CABF86A223B3912300FAA505 /* Main.storyboard */,
 				CABF86A523B3912300FAA505 /* Assets.xcassets */,
@@ -166,9 +167,19 @@
 		CABF86B923B3924D00FAA505 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				CABF86BA23B39C1700FAA505 /* Delegates */,
+				CABF869E23B3912300FAA505 /* SceneDelegate.swift */,
 				CABF869C23B3912300FAA505 /* AppDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		CABF86BA23B39C1700FAA505 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				CABF86BB23B39C2900FAA505 /* ApplicationDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +300,7 @@
 				CABF86A123B3912300FAA505 /* ViewController.swift in Sources */,
 				CABF869D23B3912300FAA505 /* AppDelegate.swift in Sources */,
 				CABF869F23B3912300FAA505 /* SceneDelegate.swift in Sources */,
+				CABF86BC23B39C2900FAA505 /* ApplicationDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
