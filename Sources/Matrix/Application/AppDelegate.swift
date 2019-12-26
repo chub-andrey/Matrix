@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return storedDelegates
     }
     
-    let storedDelegates: [ApplicationDelegate] = []
+    let storedDelegates: [ApplicationDelegate] = [NavigationApplicationDelegate()]
 
         func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

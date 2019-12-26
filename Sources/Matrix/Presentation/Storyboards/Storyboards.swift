@@ -1,10 +1,3 @@
-//
-//  Storyboards.swift
-//  GeneralFinancing
-//
-//  Created by Roman Gritsuk on 8/16/19.
-//  Copyright © 2019 Andersen. All rights reserved.
-//
 
 import UIKit
 

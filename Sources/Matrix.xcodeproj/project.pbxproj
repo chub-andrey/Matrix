@@ -10,8 +10,28 @@
 		902E5E5D0EB1C42C775135B2 /* Pods_Matrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154F99E116D170695BBD54CF /* Pods_Matrix.framework */; };
 		CA0D1D0923B3BD28009DD5A3 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0D1D0823B3BD28009DD5A3 /* Splash.storyboard */; };
 		CA0D1D0B23B3BD87009DD5A3 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D0A23B3BD87009DD5A3 /* Storyboards.swift */; };
+		CA0D1D0F23B53899009DD5A3 /* UIApplication+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D0D23B53899009DD5A3 /* UIApplication+Router.swift */; };
+		CA0D1D1023B53899009DD5A3 /* UIApplication+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D0E23B53899009DD5A3 /* UIApplication+ViewController.swift */; };
+		CA0D1D1A23B539C0009DD5A3 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D1923B539C0009DD5A3 /* Typealias.swift */; };
+		CA0D1D2123B53A2D009DD5A3 /* UIViewController+Containment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D1D23B53A2D009DD5A3 /* UIViewController+Containment.swift */; };
+		CA0D1D2223B53A2D009DD5A3 /* UIViewController+NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D1E23B53A2D009DD5A3 /* UIViewController+NavigationController.swift */; };
+		CA0D1D2323B53A2D009DD5A3 /* UIViewController+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D1F23B53A2D009DD5A3 /* UIViewController+Nib.swift */; };
+		CA0D1D3823B53BAA009DD5A3 /* CATransition+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D3723B53BAA009DD5A3 /* CATransition+Extension.swift */; };
+		CA0D1D4823B53C44009DD5A3 /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D3B23B53C44009DD5A3 /* SplashInteractor.swift */; };
+		CA0D1D4923B53C44009DD5A3 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D3D23B53C44009DD5A3 /* SplashPresenter.swift */; };
+		CA0D1D4E23B53C44009DD5A3 /* SplashAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D4723B53C44009DD5A3 /* SplashAssembly.swift */; };
+		CA0D1D5D23B54D2D009DD5A3 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D5C23B54D2D009DD5A3 /* SplashViewController.swift */; };
+		CA0D1D5E23B54D3A009DD5A3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D5223B53D0A009DD5A3 /* BaseViewController.swift */; };
+		CA0D1D5F23B54D3A009DD5A3 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D5323B53D0A009DD5A3 /* BaseNavigationController.swift */; };
+		CA0D1D6023B54D3A009DD5A3 /* ViewLifeCycleSupportable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D5423B53D0A009DD5A3 /* ViewLifeCycleSupportable.swift */; };
+		CA0D1D6123B54D3A009DD5A3 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D5623B53D0A009DD5A3 /* Router.swift */; };
+		CA0D1D6A23B54E09009DD5A3 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D6323B54E09009DD5A3 /* BaseInteractor.swift */; };
+		CA0D1D6B23B54E09009DD5A3 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D6423B54E09009DD5A3 /* Interactor.swift */; };
+		CA0D1D6C23B54E09009DD5A3 /* BaseAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D6623B54E09009DD5A3 /* BaseAssembly.swift */; };
+		CA0D1D6D23B54E09009DD5A3 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D6823B54E09009DD5A3 /* Presenter.swift */; };
+		CA0D1D6E23B54E09009DD5A3 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D6923B54E09009DD5A3 /* BasePresenter.swift */; };
+		CA0D1D7023B54F46009DD5A3 /* NavigationApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D6F23B54F46009DD5A3 /* NavigationApplicationDelegate.swift */; };
 		CABF869D23B3912300FAA505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF869C23B3912300FAA505 /* AppDelegate.swift */; };
-		CABF86A123B3912300FAA505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF86A023B3912300FAA505 /* ViewController.swift */; };
 		CABF86BC23B39C2900FAA505 /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF86BB23B39C2900FAA505 /* ApplicationDelegate.swift */; };
 		CABF86C123B39EAE00FAA505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABF86BD23B39EAE00FAA505 /* Main.storyboard */; };
 		CABF86C223B39EAE00FAA505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABF86BF23B39EAE00FAA505 /* LaunchScreen.storyboard */; };
@@ -24,9 +44,29 @@
 		AF65C7EB6668B1A8C7B1F052 /* Pods-Matrix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matrix.release.xcconfig"; path = "Target Support Files/Pods-Matrix/Pods-Matrix.release.xcconfig"; sourceTree = "<group>"; };
 		CA0D1D0823B3BD28009DD5A3 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 		CA0D1D0A23B3BD87009DD5A3 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		CA0D1D0D23B53899009DD5A3 /* UIApplication+Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Router.swift"; sourceTree = "<group>"; };
+		CA0D1D0E23B53899009DD5A3 /* UIApplication+ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+ViewController.swift"; sourceTree = "<group>"; };
+		CA0D1D1923B539C0009DD5A3 /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		CA0D1D1D23B53A2D009DD5A3 /* UIViewController+Containment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Containment.swift"; sourceTree = "<group>"; };
+		CA0D1D1E23B53A2D009DD5A3 /* UIViewController+NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationController.swift"; sourceTree = "<group>"; };
+		CA0D1D1F23B53A2D009DD5A3 /* UIViewController+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Nib.swift"; sourceTree = "<group>"; };
+		CA0D1D3723B53BAA009DD5A3 /* CATransition+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CATransition+Extension.swift"; sourceTree = "<group>"; };
+		CA0D1D3B23B53C44009DD5A3 /* SplashInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		CA0D1D3D23B53C44009DD5A3 /* SplashPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		CA0D1D4723B53C44009DD5A3 /* SplashAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashAssembly.swift; sourceTree = "<group>"; };
+		CA0D1D5223B53D0A009DD5A3 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CA0D1D5323B53D0A009DD5A3 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		CA0D1D5423B53D0A009DD5A3 /* ViewLifeCycleSupportable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewLifeCycleSupportable.swift; sourceTree = "<group>"; };
+		CA0D1D5623B53D0A009DD5A3 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		CA0D1D5C23B54D2D009DD5A3 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		CA0D1D6323B54E09009DD5A3 /* BaseInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
+		CA0D1D6423B54E09009DD5A3 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		CA0D1D6623B54E09009DD5A3 /* BaseAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAssembly.swift; sourceTree = "<group>"; };
+		CA0D1D6823B54E09009DD5A3 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		CA0D1D6923B54E09009DD5A3 /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		CA0D1D6F23B54F46009DD5A3 /* NavigationApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationApplicationDelegate.swift; sourceTree = "<group>"; };
 		CABF869923B3912300FAA505 /* Matrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABF869C23B3912300FAA505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CABF86A023B3912300FAA505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CABF86AA23B3912300FAA505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CABF86BB23B39C2900FAA505 /* ApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDelegate.swift; sourceTree = "<group>"; };
 		CABF86BE23B39EAE00FAA505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,6 +111,148 @@
 			path = Splash;
 			sourceTree = "<group>";
 		};
+		CA0D1D0C23B53899009DD5A3 /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D0D23B53899009DD5A3 /* UIApplication+Router.swift */,
+				CA0D1D0E23B53899009DD5A3 /* UIApplication+ViewController.swift */,
+			);
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		CA0D1D1823B539B1009DD5A3 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D1923B539C0009DD5A3 /* Typealias.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		CA0D1D1B23B53A2D009DD5A3 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D1D23B53A2D009DD5A3 /* UIViewController+Containment.swift */,
+				CA0D1D1E23B53A2D009DD5A3 /* UIViewController+NavigationController.swift */,
+				CA0D1D1F23B53A2D009DD5A3 /* UIViewController+Nib.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		CA0D1D3623B53BAA009DD5A3 /* CATransition */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D3723B53BAA009DD5A3 /* CATransition+Extension.swift */,
+			);
+			path = CATransition;
+			sourceTree = "<group>";
+		};
+		CA0D1D3923B53C2D009DD5A3 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D5B23B54D2D009DD5A3 /* View */,
+				CA0D1D4623B53C44009DD5A3 /* Assembly */,
+				CA0D1D3A23B53C44009DD5A3 /* Interactor */,
+				CA0D1D3C23B53C44009DD5A3 /* Presenter */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		CA0D1D3A23B53C44009DD5A3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D3B23B53C44009DD5A3 /* SplashInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CA0D1D3C23B53C44009DD5A3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D3D23B53C44009DD5A3 /* SplashPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CA0D1D4623B53C44009DD5A3 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D4723B53C44009DD5A3 /* SplashAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		CA0D1D4F23B53D0A009DD5A3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D5023B53D0A009DD5A3 /* Base */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CA0D1D5023B53D0A009DD5A3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D6523B54E09009DD5A3 /* Assembly */,
+				CA0D1D6223B54E09009DD5A3 /* Interactor */,
+				CA0D1D6723B54E09009DD5A3 /* Presenter */,
+				CA0D1D5123B53D0A009DD5A3 /* View */,
+				CA0D1D5523B53D0A009DD5A3 /* Router */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CA0D1D5123B53D0A009DD5A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D5223B53D0A009DD5A3 /* BaseViewController.swift */,
+				CA0D1D5323B53D0A009DD5A3 /* BaseNavigationController.swift */,
+				CA0D1D5423B53D0A009DD5A3 /* ViewLifeCycleSupportable.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA0D1D5523B53D0A009DD5A3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D5623B53D0A009DD5A3 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CA0D1D5B23B54D2D009DD5A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D5C23B54D2D009DD5A3 /* SplashViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA0D1D6223B54E09009DD5A3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D6323B54E09009DD5A3 /* BaseInteractor.swift */,
+				CA0D1D6423B54E09009DD5A3 /* Interactor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CA0D1D6523B54E09009DD5A3 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D6623B54E09009DD5A3 /* BaseAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		CA0D1D6723B54E09009DD5A3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D6823B54E09009DD5A3 /* Presenter.swift */,
+				CA0D1D6923B54E09009DD5A3 /* BasePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		CABF869023B3912300FAA505 = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +281,6 @@
 				CABF86B323B3924000FAA505 /* Resources */,
 				CABF86B023B3924000FAA505 /* Services */,
 				CABF86B223B3924000FAA505 /* SupportingFiles */,
-				CABF86A023B3912300FAA505 /* ViewController.swift */,
 				CABF86AA23B3912300FAA505 /* Info.plist */,
 			);
 			path = Matrix;
@@ -137,6 +318,9 @@
 		CABF86B423B3924000FAA505 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				CA0D1D3623B53BAA009DD5A3 /* CATransition */,
+				CA0D1D1B23B53A2D009DD5A3 /* UIViewController */,
+				CA0D1D0C23B53899009DD5A3 /* UIApplication */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -146,7 +330,6 @@
 			children = (
 				CABF86B623B3924000FAA505 /* Storyboards */,
 				CABF86B723B3924000FAA505 /* Modules */,
-				CABF86B823B3924000FAA505 /* Views */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -165,21 +348,16 @@
 		CABF86B723B3924000FAA505 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				CABF86C323B39EF600FAA505 /* Spalsh */,
+				CA0D1D4F23B53D0A009DD5A3 /* Common */,
+				CA0D1D3923B53C2D009DD5A3 /* Splash */,
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		CABF86B823B3924000FAA505 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		CABF86B923B3924D00FAA505 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				CA0D1D1823B539B1009DD5A3 /* Types */,
 				CABF86BA23B39C1700FAA505 /* Delegates */,
 				CABF869C23B3912300FAA505 /* AppDelegate.swift */,
 			);
@@ -190,47 +368,9 @@
 			isa = PBXGroup;
 			children = (
 				CABF86BB23B39C2900FAA505 /* ApplicationDelegate.swift */,
+				CA0D1D6F23B54F46009DD5A3 /* NavigationApplicationDelegate.swift */,
 			);
 			path = Delegates;
-			sourceTree = "<group>";
-		};
-		CABF86C323B39EF600FAA505 /* Spalsh */ = {
-			isa = PBXGroup;
-			children = (
-				CABF86C723B39F4F00FAA505 /* View */,
-				CABF86C623B39F4800FAA505 /* Presenter */,
-				CABF86C523B39F4100FAA505 /* Interactor */,
-				CABF86C423B39F0E00FAA505 /* Assembly */,
-			);
-			path = Spalsh;
-			sourceTree = "<group>";
-		};
-		CABF86C423B39F0E00FAA505 /* Assembly */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Assembly;
-			sourceTree = "<group>";
-		};
-		CABF86C523B39F4100FAA505 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		CABF86C623B39F4800FAA505 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		CABF86C723B39F4F00FAA505 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,10 +489,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CABF86A123B3912300FAA505 /* ViewController.swift in Sources */,
+				CA0D1D5E23B54D3A009DD5A3 /* BaseViewController.swift in Sources */,
+				CA0D1D6E23B54E09009DD5A3 /* BasePresenter.swift in Sources */,
+				CA0D1D6A23B54E09009DD5A3 /* BaseInteractor.swift in Sources */,
+				CA0D1D6C23B54E09009DD5A3 /* BaseAssembly.swift in Sources */,
+				CA0D1D5F23B54D3A009DD5A3 /* BaseNavigationController.swift in Sources */,
+				CA0D1D6023B54D3A009DD5A3 /* ViewLifeCycleSupportable.swift in Sources */,
+				CA0D1D6123B54D3A009DD5A3 /* Router.swift in Sources */,
+				CA0D1D2223B53A2D009DD5A3 /* UIViewController+NavigationController.swift in Sources */,
+				CA0D1D0F23B53899009DD5A3 /* UIApplication+Router.swift in Sources */,
+				CA0D1D1023B53899009DD5A3 /* UIApplication+ViewController.swift in Sources */,
+				CA0D1D6D23B54E09009DD5A3 /* Presenter.swift in Sources */,
 				CA0D1D0B23B3BD87009DD5A3 /* Storyboards.swift in Sources */,
+				CA0D1D4823B53C44009DD5A3 /* SplashInteractor.swift in Sources */,
 				CABF869D23B3912300FAA505 /* AppDelegate.swift in Sources */,
+				CA0D1D6B23B54E09009DD5A3 /* Interactor.swift in Sources */,
+				CA0D1D4E23B53C44009DD5A3 /* SplashAssembly.swift in Sources */,
+				CA0D1D1A23B539C0009DD5A3 /* Typealias.swift in Sources */,
+				CA0D1D5D23B54D2D009DD5A3 /* SplashViewController.swift in Sources */,
+				CA0D1D4923B53C44009DD5A3 /* SplashPresenter.swift in Sources */,
 				CABF86BC23B39C2900FAA505 /* ApplicationDelegate.swift in Sources */,
+				CA0D1D2323B53A2D009DD5A3 /* UIViewController+Nib.swift in Sources */,
+				CA0D1D2123B53A2D009DD5A3 /* UIViewController+Containment.swift in Sources */,
+				CA0D1D3823B53BAA009DD5A3 /* CATransition+Extension.swift in Sources */,
+				CA0D1D7023B54F46009DD5A3 /* NavigationApplicationDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
