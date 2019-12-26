@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EWu-Ug-yN6">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="C5W-RZ-xjH">
+            <objects>
+                <navigationController id="q6b-cx-9AW" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wMb-f7-v3X">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EWu-Ug-yN6" kind="relationship" relationship="rootViewController" id="ShC-Fk-n2I"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M3j-AG-oUI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-716" y="155"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SC3-1P-8ut">
+            <objects>
+                <viewController id="EWu-Ug-yN6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pCN-vq-QRe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="aC8-RI-xi9">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aC8-RI-xi9" firstAttribute="trailing" secondItem="KSw-gm-qJL" secondAttribute="trailing" id="HCQ-ki-9LE"/>
+                            <constraint firstItem="aC8-RI-xi9" firstAttribute="top" secondItem="pCN-vq-QRe" secondAttribute="top" id="Hcx-YE-a7G"/>
+                            <constraint firstAttribute="bottom" secondItem="aC8-RI-xi9" secondAttribute="bottom" id="Wgx-AX-Gpd"/>
+                            <constraint firstItem="aC8-RI-xi9" firstAttribute="leading" secondItem="KSw-gm-qJL" secondAttribute="leading" id="qQ9-3V-7iB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KSw-gm-qJL"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zG0-Nc-Ksd"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FMG-1v-Tor" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="103" y="155"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchImage" width="375" height="812"/>
+    </resources>
+</document>
