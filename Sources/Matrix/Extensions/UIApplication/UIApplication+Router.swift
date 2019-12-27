@@ -38,7 +38,7 @@ extension UIApplication {
     }
     
     func startDefaultFlow() {
-        presentOnWindowRootView(SplashAssembly.createModule())
+        presentOnWindowRootView(EntryContainerAssembly.createModule())
     }
     
     private func restrictSystemThemeChanging(for window: UIWindow?) {

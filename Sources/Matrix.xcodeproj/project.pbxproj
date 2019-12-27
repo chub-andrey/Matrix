@@ -31,6 +31,14 @@
 		CA0D1D6D23B54E09009DD5A3 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D6823B54E09009DD5A3 /* Presenter.swift */; };
 		CA0D1D6E23B54E09009DD5A3 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D6923B54E09009DD5A3 /* BasePresenter.swift */; };
 		CA0D1D7023B54F46009DD5A3 /* NavigationApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D6F23B54F46009DD5A3 /* NavigationApplicationDelegate.swift */; };
+		CA0D1D7B23B55CCC009DD5A3 /* EntryContainerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D7423B55CCC009DD5A3 /* EntryContainerPresenter.swift */; };
+		CA0D1D7C23B55CCC009DD5A3 /* EntryContainerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D7623B55CCC009DD5A3 /* EntryContainerAssembly.swift */; };
+		CA0D1D7D23B55CCC009DD5A3 /* EntryContainerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D7823B55CCC009DD5A3 /* EntryContainerInteractor.swift */; };
+		CA0D1D7E23B55CCC009DD5A3 /* EntryContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D7A23B55CCC009DD5A3 /* EntryContainerViewController.swift */; };
+		CA0D1D8223B55D70009DD5A3 /* EntryContainer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0D1D8123B55D70009DD5A3 /* EntryContainer.storyboard */; };
+		CA0D1D8623B5652D009DD5A3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0D1D8423B5652D009DD5A3 /* Colors.xcassets */; };
+		CA0D1D8723B5652D009DD5A3 /* UIColor+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D8523B5652D009DD5A3 /* UIColor+Palette.swift */; };
+		CA0D1D8923B573BD009DD5A3 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D8823B573BD009DD5A3 /* Animation.swift */; };
 		CABF869D23B3912300FAA505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF869C23B3912300FAA505 /* AppDelegate.swift */; };
 		CABF86BC23B39C2900FAA505 /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF86BB23B39C2900FAA505 /* ApplicationDelegate.swift */; };
 		CABF86C123B39EAE00FAA505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABF86BD23B39EAE00FAA505 /* Main.storyboard */; };
@@ -65,6 +73,14 @@
 		CA0D1D6823B54E09009DD5A3 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		CA0D1D6923B54E09009DD5A3 /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
 		CA0D1D6F23B54F46009DD5A3 /* NavigationApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationApplicationDelegate.swift; sourceTree = "<group>"; };
+		CA0D1D7423B55CCC009DD5A3 /* EntryContainerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryContainerPresenter.swift; sourceTree = "<group>"; };
+		CA0D1D7623B55CCC009DD5A3 /* EntryContainerAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryContainerAssembly.swift; sourceTree = "<group>"; };
+		CA0D1D7823B55CCC009DD5A3 /* EntryContainerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryContainerInteractor.swift; sourceTree = "<group>"; };
+		CA0D1D7A23B55CCC009DD5A3 /* EntryContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryContainerViewController.swift; sourceTree = "<group>"; };
+		CA0D1D8123B55D70009DD5A3 /* EntryContainer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EntryContainer.storyboard; sourceTree = "<group>"; };
+		CA0D1D8423B5652D009DD5A3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		CA0D1D8523B5652D009DD5A3 /* UIColor+Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Palette.swift"; sourceTree = "<group>"; };
+		CA0D1D8823B573BD009DD5A3 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		CABF869923B3912300FAA505 /* Matrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABF869C23B3912300FAA505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CABF86AA23B3912300FAA505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				CA0D1D1923B539C0009DD5A3 /* Typealias.swift */,
+				CA0D1D8823B573BD009DD5A3 /* Animation.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -253,6 +270,84 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		CA0D1D7123B55C5A009DD5A3 /* FirstEntry */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D7223B55C7B009DD5A3 /* EntryContainer */,
+				CA0D1D3923B53C2D009DD5A3 /* Splash */,
+			);
+			path = FirstEntry;
+			sourceTree = "<group>";
+		};
+		CA0D1D7223B55C7B009DD5A3 /* EntryContainer */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D7523B55CCC009DD5A3 /* Assembly */,
+				CA0D1D7723B55CCC009DD5A3 /* Interactor */,
+				CA0D1D7323B55CCC009DD5A3 /* Presenter */,
+				CA0D1D7923B55CCC009DD5A3 /* View */,
+			);
+			path = EntryContainer;
+			sourceTree = "<group>";
+		};
+		CA0D1D7323B55CCC009DD5A3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D7423B55CCC009DD5A3 /* EntryContainerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CA0D1D7523B55CCC009DD5A3 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D7623B55CCC009DD5A3 /* EntryContainerAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		CA0D1D7723B55CCC009DD5A3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D7823B55CCC009DD5A3 /* EntryContainerInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CA0D1D7923B55CCC009DD5A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D7A23B55CCC009DD5A3 /* EntryContainerViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA0D1D7F23B55D3B009DD5A3 /* FirstEntry */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D8023B55D53009DD5A3 /* EntryContainer */,
+				CA0D1D0723B3BD05009DD5A3 /* Splash */,
+			);
+			path = FirstEntry;
+			sourceTree = "<group>";
+		};
+		CA0D1D8023B55D53009DD5A3 /* EntryContainer */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D8123B55D70009DD5A3 /* EntryContainer.storyboard */,
+			);
+			path = EntryContainer;
+			sourceTree = "<group>";
+		};
+		CA0D1D8323B5652D009DD5A3 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D8423B5652D009DD5A3 /* Colors.xcassets */,
+				CA0D1D8523B5652D009DD5A3 /* UIColor+Palette.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
 		CABF869023B3912300FAA505 = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +405,7 @@
 		CABF86B323B3924000FAA505 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CA0D1D8323B5652D009DD5A3 /* Colors */,
 				CABF86C823B3A40400FAA505 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -337,8 +433,8 @@
 		CABF86B623B3924000FAA505 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				CA0D1D7F23B55D3B009DD5A3 /* FirstEntry */,
 				CA0D1D0A23B3BD87009DD5A3 /* Storyboards.swift */,
-				CA0D1D0723B3BD05009DD5A3 /* Splash */,
 				CABF86BF23B39EAE00FAA505 /* LaunchScreen.storyboard */,
 				CABF86BD23B39EAE00FAA505 /* Main.storyboard */,
 			);
@@ -348,8 +444,8 @@
 		CABF86B723B3924000FAA505 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				CA0D1D7123B55C5A009DD5A3 /* FirstEntry */,
 				CA0D1D4F23B53D0A009DD5A3 /* Common */,
-				CA0D1D3923B53C2D009DD5A3 /* Splash */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -433,8 +529,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0D1D8223B55D70009DD5A3 /* EntryContainer.storyboard in Resources */,
 				CABF86C223B39EAE00FAA505 /* LaunchScreen.storyboard in Resources */,
 				CABF86C923B3A40400FAA505 /* Assets.xcassets in Resources */,
+				CA0D1D8623B5652D009DD5A3 /* Colors.xcassets in Resources */,
 				CABF86C123B39EAE00FAA505 /* Main.storyboard in Resources */,
 				CA0D1D0923B3BD28009DD5A3 /* Splash.storyboard in Resources */,
 			);
@@ -489,7 +587,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0D1D7D23B55CCC009DD5A3 /* EntryContainerInteractor.swift in Sources */,
 				CA0D1D5E23B54D3A009DD5A3 /* BaseViewController.swift in Sources */,
+				CA0D1D7B23B55CCC009DD5A3 /* EntryContainerPresenter.swift in Sources */,
 				CA0D1D6E23B54E09009DD5A3 /* BasePresenter.swift in Sources */,
 				CA0D1D6A23B54E09009DD5A3 /* BaseInteractor.swift in Sources */,
 				CA0D1D6C23B54E09009DD5A3 /* BaseAssembly.swift in Sources */,
@@ -498,6 +598,7 @@
 				CA0D1D6123B54D3A009DD5A3 /* Router.swift in Sources */,
 				CA0D1D2223B53A2D009DD5A3 /* UIViewController+NavigationController.swift in Sources */,
 				CA0D1D0F23B53899009DD5A3 /* UIApplication+Router.swift in Sources */,
+				CA0D1D7C23B55CCC009DD5A3 /* EntryContainerAssembly.swift in Sources */,
 				CA0D1D1023B53899009DD5A3 /* UIApplication+ViewController.swift in Sources */,
 				CA0D1D6D23B54E09009DD5A3 /* Presenter.swift in Sources */,
 				CA0D1D0B23B3BD87009DD5A3 /* Storyboards.swift in Sources */,
@@ -506,12 +607,15 @@
 				CA0D1D6B23B54E09009DD5A3 /* Interactor.swift in Sources */,
 				CA0D1D4E23B53C44009DD5A3 /* SplashAssembly.swift in Sources */,
 				CA0D1D1A23B539C0009DD5A3 /* Typealias.swift in Sources */,
+				CA0D1D8723B5652D009DD5A3 /* UIColor+Palette.swift in Sources */,
 				CA0D1D5D23B54D2D009DD5A3 /* SplashViewController.swift in Sources */,
+				CA0D1D7E23B55CCC009DD5A3 /* EntryContainerViewController.swift in Sources */,
 				CA0D1D4923B53C44009DD5A3 /* SplashPresenter.swift in Sources */,
 				CABF86BC23B39C2900FAA505 /* ApplicationDelegate.swift in Sources */,
 				CA0D1D2323B53A2D009DD5A3 /* UIViewController+Nib.swift in Sources */,
 				CA0D1D2123B53A2D009DD5A3 /* UIViewController+Containment.swift in Sources */,
 				CA0D1D3823B53BAA009DD5A3 /* CATransition+Extension.swift in Sources */,
+				CA0D1D8923B573BD009DD5A3 /* Animation.swift in Sources */,
 				CA0D1D7023B54F46009DD5A3 /* NavigationApplicationDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

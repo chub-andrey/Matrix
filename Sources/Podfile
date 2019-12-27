@@ -11,5 +11,8 @@ target 'Matrix' do
   pod 'Crashlytics', '~> 3.13.0'
   
   pod 'Alamofire', '~> 4.8.2'
+  
+  pod 'UIColor_Hex_Swift', '~> 5.0.0'
+  pod 'NVActivityIndicatorView', '~> 4.8.0'
 
 end

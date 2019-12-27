@@ -3,6 +3,7 @@ import UIKit
 
 enum Storyboards: String {
     
+    case entryContainer = "EntryContainer"
     case splash = "Splash"
     
     var controller: UIViewController {

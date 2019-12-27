@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -35,11 +36,35 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="aC8-RI-xi9">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tB6-bD-fWz">
+                                <rect key="frame" x="0.0" y="840" width="414" height="22"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULL-of-DB2">
+                                        <rect key="frame" x="35" y="0.0" width="80" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="puL-KM-vpQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="E2E0EB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="ULL-of-DB2" firstAttribute="top" secondItem="tB6-bD-fWz" secondAttribute="top" id="9EG-wV-Ujd"/>
+                                    <constraint firstItem="ULL-of-DB2" firstAttribute="leading" secondItem="tB6-bD-fWz" secondAttribute="leading" constant="35" id="PW9-ZC-Bnw"/>
+                                    <constraint firstAttribute="height" constant="22" id="Pqj-wx-JqH"/>
+                                    <constraint firstAttribute="bottom" secondItem="ULL-of-DB2" secondAttribute="bottom" id="ZO6-w0-s4P"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="tB6-bD-fWz" firstAttribute="trailing" secondItem="KSw-gm-qJL" secondAttribute="trailing" id="EIa-VU-5kC"/>
                             <constraint firstItem="aC8-RI-xi9" firstAttribute="trailing" secondItem="KSw-gm-qJL" secondAttribute="trailing" id="HCQ-ki-9LE"/>
                             <constraint firstItem="aC8-RI-xi9" firstAttribute="top" secondItem="pCN-vq-QRe" secondAttribute="top" id="Hcx-YE-a7G"/>
+                            <constraint firstItem="tB6-bD-fWz" firstAttribute="bottom" secondItem="pCN-vq-QRe" secondAttribute="bottom" constant="-34" id="Hlf-Dw-6gS"/>
+                            <constraint firstItem="tB6-bD-fWz" firstAttribute="leading" secondItem="KSw-gm-qJL" secondAttribute="leading" id="M3e-KP-jLo"/>
                             <constraint firstAttribute="bottom" secondItem="aC8-RI-xi9" secondAttribute="bottom" id="Wgx-AX-Gpd"/>
                             <constraint firstItem="aC8-RI-xi9" firstAttribute="leading" secondItem="KSw-gm-qJL" secondAttribute="leading" id="qQ9-3V-7iB"/>
                         </constraints>
@@ -47,13 +72,20 @@
                     </view>
                     <navigationItem key="navigationItem" id="zG0-Nc-Ksd"/>
                     <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="loadingContainerView" destination="tB6-bD-fWz" id="CTH-ou-v6s"/>
+                        <outlet property="loadingViewBottomConstraint" destination="Hlf-Dw-6gS" id="Qf3-8a-vMf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FMG-1v-Tor" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="103" y="155"/>
+            <point key="canvasLocation" x="102.89855072463769" y="154.6875"/>
         </scene>
     </scenes>
     <resources>
         <image name="LaunchImage" width="375" height="812"/>
+        <namedColor name="E2E0EB">
+            <color red="0.88599997758865356" green="0.87800002098083496" blue="0.92199999094009399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

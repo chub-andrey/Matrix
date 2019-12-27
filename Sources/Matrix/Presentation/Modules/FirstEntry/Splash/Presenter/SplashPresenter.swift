@@ -4,6 +4,8 @@ import UIKit
 
 protocol SplashPresenter: Presenter {
     
+    func presentLoadingView()
+    func dissmisLoadingView()
 }
 
 class SplashPresenterImplementation: BasePresenter {
@@ -19,4 +21,11 @@ class SplashPresenterImplementation: BasePresenter {
 
 extension SplashPresenterImplementation: SplashPresenter {
     
+    func presentLoadingView() {
+        view?.displayLoadingView()
+    }
+    
+    func dissmisLoadingView() {
+        view?.dissmisLoadingView()
+    }
 }
