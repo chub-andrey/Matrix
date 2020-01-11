@@ -32,12 +32,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f1z-L4-n9c">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="050-rP-NB2">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <connections>
-                                    <segue destination="3Na-su-yuf" kind="embed" id="ZfO-7V-r8o"/>
-                                </connections>
-                            </containerView>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sFS-PS-2NP">
+                                <rect key="frame" x="0.0" y="812" width="375" height="812"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoWhite" translatesAutoresizingMaskIntoConstraints="NO" id="6Ba-Y1-nil">
                                 <rect key="frame" x="34.666666666666657" y="56" width="310" height="123"/>
                                 <constraints>
@@ -48,29 +50,32 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="f1z-L4-n9c" firstAttribute="top" secondItem="cb8-te-uBo" secondAttribute="top" id="2cV-7e-MuW"/>
-                            <constraint firstItem="f1z-L4-n9c" firstAttribute="trailing" secondItem="DAH-fd-ef4" secondAttribute="trailing" id="ATe-Xk-NmJ"/>
-                            <constraint firstItem="f1z-L4-n9c" firstAttribute="leading" secondItem="DAH-fd-ef4" secondAttribute="leading" id="Dfz-JR-f1Y"/>
-                            <constraint firstAttribute="bottom" secondItem="f1z-L4-n9c" secondAttribute="bottom" id="Jze-mV-aU4"/>
+                            <constraint firstAttribute="bottom" secondItem="sFS-PS-2NP" secondAttribute="bottom" constant="-812" id="928-dl-MgI"/>
+                            <constraint firstItem="050-rP-NB2" firstAttribute="leading" secondItem="DAH-fd-ef4" secondAttribute="leading" id="Ban-WO-reA"/>
+                            <constraint firstAttribute="trailing" secondItem="sFS-PS-2NP" secondAttribute="trailing" id="N9A-dS-Lym"/>
+                            <constraint firstItem="sFS-PS-2NP" firstAttribute="height" secondItem="050-rP-NB2" secondAttribute="height" id="R9Q-e2-sCN"/>
                             <constraint firstItem="6Ba-Y1-nil" firstAttribute="centerX" secondItem="cb8-te-uBo" secondAttribute="centerX" constant="2.1666666666666572" id="ZGj-31-nx6"/>
+                            <constraint firstItem="sFS-PS-2NP" firstAttribute="leading" secondItem="cb8-te-uBo" secondAttribute="leading" id="aSK-Ff-gBV"/>
                             <constraint firstItem="6Ba-Y1-nil" firstAttribute="top" secondItem="DAH-fd-ef4" secondAttribute="top" constant="12" id="bwG-01-DIc"/>
+                            <constraint firstItem="050-rP-NB2" firstAttribute="trailing" secondItem="DAH-fd-ef4" secondAttribute="trailing" id="dl1-6c-4Yy"/>
+                            <constraint firstItem="sFS-PS-2NP" firstAttribute="top" secondItem="050-rP-NB2" secondAttribute="bottom" id="hVQ-Df-4xh"/>
+                            <constraint firstItem="050-rP-NB2" firstAttribute="top" relation="lessThanOrEqual" secondItem="cb8-te-uBo" secondAttribute="top" id="lnZ-Q9-NrX"/>
+                            <constraint firstItem="050-rP-NB2" firstAttribute="height" secondItem="cb8-te-uBo" secondAttribute="height" id="qPj-ej-Q8G"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DAH-fd-ef4"/>
                     </view>
                     <navigationItem key="navigationItem" id="BYH-WY-9Tv"/>
                     <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="birthdayContainerView" destination="sFS-PS-2NP" id="hxX-V0-TGu"/>
+                        <outlet property="birthdayContainerViewBottomConstraint" destination="928-dl-MgI" id="AkI-yc-awk"/>
+                        <outlet property="logoImageView" destination="6Ba-Y1-nil" id="m5w-5j-oak"/>
+                        <outlet property="splashContainerView" destination="050-rP-NB2" id="TID-xU-cKr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Of4-sD-h30" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="102.89855072463769" y="57.589285714285708"/>
-        </scene>
-        <!--Splash-->
-        <scene sceneID="ikE-QY-4es">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Splash" id="3Na-su-yuf" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x1J-mG-29d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="706" y="58"/>
+            <point key="canvasLocation" x="101.59999999999999" y="56.896551724137936"/>
         </scene>
     </scenes>
     <resources>

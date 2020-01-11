@@ -20,7 +20,6 @@ class SplashViewController: BaseViewController {
         
         enum LoadingView {
             static let show: CGFloat = -34
-            static let hide: CGFloat = 22
         }
     }
     
@@ -43,8 +42,6 @@ class SplashViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        setActivityViewVisible(false, animated: false)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -61,28 +58,33 @@ extension SplashViewController: SplashView {
     func displayLoadingView() {
         
         animateActivityIndicator(true)
-        setActivityViewVisible(true, animated: true)
+        setActivityViewVisible(true)
     }
     
     func dissmisLoadingView() {
         
         animateActivityIndicator(false)
-        setActivityViewVisible(false, animated: true)
+        setActivityViewVisible(false) { [weak self] isVisible in
+            if !isVisible {
+                self?.interactor?.presentNextModule()
+            }
+        }
     }
 }
- 
+
 extension SplashViewController {
     
-    private func setActivityViewVisible(_ visible: Bool, animated: Bool) {
+    private func setActivityViewVisible(_ visible: Bool, completion: ((_ isVisible: Bool) -> Void)? = nil) {
         
-        loadingViewBottomConstraint.constant = visible ? Constans.LoadingView.show : Constans.LoadingView.hide
-        
-        if animated {
-            UIView.animate(withDuration: Constants.Animation.duration) {
-                self.view.layoutIfNeeded()
-            }
+        if visible {
+            loadingViewBottomConstraint.constant = Constans.LoadingView.show
+            UIView.animate(withDuration: Constants.Animation.duration,
+                           animations: { self.view.layoutIfNeeded() },
+                           completion: { _ in completion?(true) })
         } else {
-            view.layoutIfNeeded()
+            UIView.animate(withDuration: Constants.Animation.duration,
+                           animations: { self.loadingContainerView.alpha = 0 },
+                           completion: { _ in completion?(false) })
         }
     }
     

@@ -1,7 +1,10 @@
 
+import UIKit
 
 protocol EntryContainerInteractor: Interactor {
 
+    func fetchData()
+    func showDateBirthdayView()
 }
 
 class EntryContainerInteractorImplementation: BaseInteractor {
@@ -14,4 +17,21 @@ class EntryContainerInteractorImplementation: BaseInteractor {
     }
 }
 
-extension EntryContainerInteractorImplementation: EntryContainerInteractor { }
+extension EntryContainerInteractorImplementation: EntryContainerInteractor {
+    
+    func fetchData() {
+        
+        let splashViewContext = SplashViewContext { [weak self] in
+            self?.showDateBirthdayView()
+        }
+        
+        let vc = SplashAssembly.createModule(splashViewContext)
+        presenter.presentSplashModule(vc)
+    }
+    
+    func showDateBirthdayView() {
+        
+        let vc = BirthdayAssembly.createModule()
+        presenter.presentBirthdayModule(vc)
+    }
+}

@@ -11,5 +11,6 @@ import UIKit
 enum Constants {
     enum Animation {
         static let duration: Double = 0.3
+        static let firstEnterShowBirthdatModuleDuration = 1.0
     }
 }

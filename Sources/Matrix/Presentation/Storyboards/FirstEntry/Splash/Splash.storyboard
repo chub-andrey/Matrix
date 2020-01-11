@@ -37,7 +37,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tB6-bD-fWz">
-                                <rect key="frame" x="0.0" y="840" width="414" height="22"/>
+                                <rect key="frame" x="0.0" y="896" width="414" height="22"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULL-of-DB2">
                                         <rect key="frame" x="35" y="0.0" width="80" height="22"/>
@@ -63,7 +63,7 @@
                             <constraint firstItem="tB6-bD-fWz" firstAttribute="trailing" secondItem="KSw-gm-qJL" secondAttribute="trailing" id="EIa-VU-5kC"/>
                             <constraint firstItem="aC8-RI-xi9" firstAttribute="trailing" secondItem="KSw-gm-qJL" secondAttribute="trailing" id="HCQ-ki-9LE"/>
                             <constraint firstItem="aC8-RI-xi9" firstAttribute="top" secondItem="pCN-vq-QRe" secondAttribute="top" id="Hcx-YE-a7G"/>
-                            <constraint firstItem="tB6-bD-fWz" firstAttribute="bottom" secondItem="pCN-vq-QRe" secondAttribute="bottom" constant="-34" id="Hlf-Dw-6gS"/>
+                            <constraint firstItem="tB6-bD-fWz" firstAttribute="bottom" secondItem="pCN-vq-QRe" secondAttribute="bottom" constant="22" id="Hlf-Dw-6gS"/>
                             <constraint firstItem="tB6-bD-fWz" firstAttribute="leading" secondItem="KSw-gm-qJL" secondAttribute="leading" id="M3e-KP-jLo"/>
                             <constraint firstAttribute="bottom" secondItem="aC8-RI-xi9" secondAttribute="bottom" id="Wgx-AX-Gpd"/>
                             <constraint firstItem="aC8-RI-xi9" firstAttribute="leading" secondItem="KSw-gm-qJL" secondAttribute="leading" id="qQ9-3V-7iB"/>

@@ -13,3 +13,11 @@ extension UIColor {
 	
 	static let silver = UIColor("#E2E0EB")
 }
+
+extension UIColor {
+    
+    enum FirstEntry {
+        static let birthdayViewTopColor = UIColor("#3A2C6F")
+        static let birthdayViewBottomColor = UIColor("#27274B")
+    }
+}

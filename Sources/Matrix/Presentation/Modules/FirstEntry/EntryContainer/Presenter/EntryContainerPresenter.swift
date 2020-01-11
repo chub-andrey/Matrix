@@ -4,6 +4,8 @@ import UIKit
 
 protocol EntryContainerPresenter: Presenter {
     
+    func presentSplashModule(_ viewController: UIViewController)
+    func presentBirthdayModule(_ viewController: UIViewController)
 }
 
 class EntryContainerPresenterImplementation: BasePresenter {
@@ -19,4 +21,11 @@ class EntryContainerPresenterImplementation: BasePresenter {
 
 extension EntryContainerPresenterImplementation: EntryContainerPresenter {
     
+    func presentSplashModule(_ viewController: UIViewController) {
+        view?.displaySplashModule(viewController)
+    }
+    
+    func presentBirthdayModule(_ viewController: UIViewController) {
+        view?.displayBirthdayModule(viewController)
+    }
 }
