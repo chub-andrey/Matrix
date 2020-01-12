@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -31,14 +32,78 @@
                     <view key="view" contentMode="scaleToFill" id="Dg7-kA-SMS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BirthdayBackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="1Av-Iv-afz">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xAp-XL-BUl">
+                                <rect key="frame" x="0.0" y="309" width="414" height="61"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We know everything about you!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4i-GG-52P">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="9Q4-26-tvH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't you believe? Check it out!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFA-HQ-ci8">
+                                        <rect key="frame" x="0.0" y="20" width="414" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="E2E0EB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="j4i-GG-52P" secondAttribute="trailing" id="2tD-sg-hg8"/>
+                                    <constraint firstItem="BFA-HQ-ci8" firstAttribute="top" secondItem="j4i-GG-52P" secondAttribute="bottom" id="GLC-Wq-04D"/>
+                                    <constraint firstAttribute="bottom" secondItem="BFA-HQ-ci8" secondAttribute="bottom" id="LhZ-L6-n0N"/>
+                                    <constraint firstAttribute="height" constant="61" id="Lwb-iV-cj0"/>
+                                    <constraint firstAttribute="trailing" secondItem="BFA-HQ-ci8" secondAttribute="trailing" id="P3v-Rg-TLm"/>
+                                    <constraint firstItem="j4i-GG-52P" firstAttribute="top" secondItem="xAp-XL-BUl" secondAttribute="top" id="hbC-CX-0O8"/>
+                                    <constraint firstItem="BFA-HQ-ci8" firstAttribute="leading" secondItem="xAp-XL-BUl" secondAttribute="leading" id="luJ-Ra-1Kh"/>
+                                    <constraint firstItem="j4i-GG-52P" firstAttribute="leading" secondItem="xAp-XL-BUl" secondAttribute="leading" id="ome-Ac-XC3"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cw-hO-IgI" customClass="AlphaButton" customModule="Matrix" customModuleProvider="target">
+                                <rect key="frame" x="164" y="588" width="86" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="26"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xAp-XL-BUl" firstAttribute="leading" secondItem="g31-Rf-hLv" secondAttribute="leading" id="Ihi-rh-P2g"/>
+                            <constraint firstItem="1Av-Iv-afz" firstAttribute="leading" secondItem="g31-Rf-hLv" secondAttribute="leading" id="KFl-eY-Okl"/>
+                            <constraint firstItem="1Av-Iv-afz" firstAttribute="top" secondItem="g31-Rf-hLv" secondAttribute="top" id="UNS-fF-hOG"/>
+                            <constraint firstItem="xAp-XL-BUl" firstAttribute="centerY" secondItem="Dg7-kA-SMS" secondAttribute="centerY" constant="-108.5" id="eJi-5N-e3G"/>
+                            <constraint firstItem="xAp-XL-BUl" firstAttribute="trailing" secondItem="g31-Rf-hLv" secondAttribute="trailing" id="ei6-Y0-mp7"/>
+                            <constraint firstItem="1Av-Iv-afz" firstAttribute="trailing" secondItem="g31-Rf-hLv" secondAttribute="trailing" id="khG-3x-tPT"/>
+                            <constraint firstAttribute="bottom" secondItem="1Av-Iv-afz" secondAttribute="bottom" id="tGk-7L-Hh7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="g31-Rf-hLv"/>
                     </view>
                     <navigationItem key="navigationItem" id="sKS-Xd-CfY"/>
+                    <connections>
+                        <outlet property="waveBackgroundImageView" destination="1Av-Iv-afz" id="MnA-f4-CPU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cw1-T7-IXv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="141" y="131"/>
+            <point key="canvasLocation" x="140.57971014492756" y="130.58035714285714"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BirthdayBackgroundImage" width="375" height="812"/>
+        <namedColor name="E2E0EB">
+            <color red="0.88599997758865356" green="0.87800002098083496" blue="0.92199999094009399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

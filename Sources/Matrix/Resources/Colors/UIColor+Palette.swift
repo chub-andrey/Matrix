@@ -21,3 +21,12 @@ extension UIColor {
         static let birthdayViewBottomColor = UIColor("#27274B")
     }
 }
+
+extension UIColor {
+    
+    enum AlphaView {
+        static let borderColor = UIColor("#7D58CB")
+        static let backgroundColor = UIColor("#825FFE")
+        static let disableBorderColor = UIColor("#6C3D89")
+    }
+}

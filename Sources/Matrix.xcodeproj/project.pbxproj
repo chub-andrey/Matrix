@@ -38,13 +38,14 @@
 		CA0D1D8223B55D70009DD5A3 /* EntryContainer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0D1D8123B55D70009DD5A3 /* EntryContainer.storyboard */; };
 		CA0D1D8623B5652D009DD5A3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0D1D8423B5652D009DD5A3 /* Colors.xcassets */; };
 		CA0D1D8723B5652D009DD5A3 /* UIColor+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D8523B5652D009DD5A3 /* UIColor+Palette.swift */; };
-		CA0D1D8923B573BD009DD5A3 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D8823B573BD009DD5A3 /* Animation.swift */; };
+		CA0D1D8923B573BD009DD5A3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D8823B573BD009DD5A3 /* Constants.swift */; };
 		CA0D1D9323C7C541009DD5A3 /* BirthdayAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D8C23C7C541009DD5A3 /* BirthdayAssembly.swift */; };
 		CA0D1D9423C7C541009DD5A3 /* BirthdayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D8E23C7C541009DD5A3 /* BirthdayInteractor.swift */; };
 		CA0D1D9523C7C541009DD5A3 /* BirthdayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D9023C7C541009DD5A3 /* BirthdayPresenter.swift */; };
 		CA0D1D9623C7C541009DD5A3 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D9223C7C541009DD5A3 /* BirthdayViewController.swift */; };
 		CA0D1D9923C7C686009DD5A3 /* Birthday.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0D1D9823C7C686009DD5A3 /* Birthday.storyboard */; };
 		CA0D1D9C23CA29F8009DD5A3 /* UIView+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1D9B23CA29F8009DD5A3 /* UIView+Gradient.swift */; };
+		CA0D1DA423CB2409009DD5A3 /* AlphaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1DA323CB2409009DD5A3 /* AlphaButton.swift */; };
 		CABF869D23B3912300FAA505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF869C23B3912300FAA505 /* AppDelegate.swift */; };
 		CABF86BC23B39C2900FAA505 /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF86BB23B39C2900FAA505 /* ApplicationDelegate.swift */; };
 		CABF86C123B39EAE00FAA505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABF86BD23B39EAE00FAA505 /* Main.storyboard */; };
@@ -86,13 +87,14 @@
 		CA0D1D8123B55D70009DD5A3 /* EntryContainer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EntryContainer.storyboard; sourceTree = "<group>"; };
 		CA0D1D8423B5652D009DD5A3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		CA0D1D8523B5652D009DD5A3 /* UIColor+Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Palette.swift"; sourceTree = "<group>"; };
-		CA0D1D8823B573BD009DD5A3 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		CA0D1D8823B573BD009DD5A3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CA0D1D8C23C7C541009DD5A3 /* BirthdayAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayAssembly.swift; sourceTree = "<group>"; };
 		CA0D1D8E23C7C541009DD5A3 /* BirthdayInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayInteractor.swift; sourceTree = "<group>"; };
 		CA0D1D9023C7C541009DD5A3 /* BirthdayPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayPresenter.swift; sourceTree = "<group>"; };
 		CA0D1D9223C7C541009DD5A3 /* BirthdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
 		CA0D1D9823C7C686009DD5A3 /* Birthday.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Birthday.storyboard; sourceTree = "<group>"; };
 		CA0D1D9B23CA29F8009DD5A3 /* UIView+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
+		CA0D1DA323CB2409009DD5A3 /* AlphaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaButton.swift; sourceTree = "<group>"; };
 		CABF869923B3912300FAA505 /* Matrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABF869C23B3912300FAA505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CABF86AA23B3912300FAA505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -152,7 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				CA0D1D1923B539C0009DD5A3 /* Typealias.swift */,
-				CA0D1D8823B573BD009DD5A3 /* Animation.swift */,
+				CA0D1D8823B573BD009DD5A3 /* Constants.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -421,6 +423,30 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
+		CA0D1D9D23CB2235009DD5A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D9E23CB225C009DD5A3 /* Base */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA0D1D9E23CB225C009DD5A3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1D9F23CB2264009DD5A3 /* AlphaButton */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CA0D1D9F23CB2264009DD5A3 /* AlphaButton */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D1DA323CB2409009DD5A3 /* AlphaButton.swift */,
+			);
+			path = AlphaButton;
+			sourceTree = "<group>";
+		};
 		CABF869023B3912300FAA505 = {
 			isa = PBXGroup;
 			children = (
@@ -498,6 +524,7 @@
 		CABF86B523B3924000FAA505 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				CA0D1D9D23CB2235009DD5A3 /* Views */,
 				CABF86B623B3924000FAA505 /* Storyboards */,
 				CABF86B723B3924000FAA505 /* Modules */,
 			);
@@ -682,6 +709,7 @@
 				CA0D1D0B23B3BD87009DD5A3 /* Storyboards.swift in Sources */,
 				CA0D1D4823B53C44009DD5A3 /* SplashInteractor.swift in Sources */,
 				CABF869D23B3912300FAA505 /* AppDelegate.swift in Sources */,
+				CA0D1DA423CB2409009DD5A3 /* AlphaButton.swift in Sources */,
 				CA0D1D6B23B54E09009DD5A3 /* Interactor.swift in Sources */,
 				CA0D1D4E23B53C44009DD5A3 /* SplashAssembly.swift in Sources */,
 				CA0D1D1A23B539C0009DD5A3 /* Typealias.swift in Sources */,
@@ -695,7 +723,7 @@
 				CA0D1D2323B53A2D009DD5A3 /* UIViewController+Nib.swift in Sources */,
 				CA0D1D2123B53A2D009DD5A3 /* UIViewController+Containment.swift in Sources */,
 				CA0D1D3823B53BAA009DD5A3 /* CATransition+Extension.swift in Sources */,
-				CA0D1D8923B573BD009DD5A3 /* Animation.swift in Sources */,
+				CA0D1D8923B573BD009DD5A3 /* Constants.swift in Sources */,
 				CA0D1D7023B54F46009DD5A3 /* NavigationApplicationDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
